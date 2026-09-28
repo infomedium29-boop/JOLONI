@@ -3,3 +3,8 @@
 @media(max-width:600px){.mobile-call{min-height:49px}.hero-content{padding-top:132px}.hero-bottom{margin-top:38px}.floats{bottom:65px}}
 
 @media(max-width:600px){body:not(.scrolled) .floats{opacity:0;pointer-events:none}.floats{transition:opacity .25s ease}}
+
+/* Clean section headings after removal of decorative eyebrow captions. */
+.section-head h2,.inner-hero h1,.cta-panel h2,.faq-wrap .display-title{margin-top:0}
+.section-head{gap:16px}
+.media-text h2,.full-photo .content h2{margin-top:0}
